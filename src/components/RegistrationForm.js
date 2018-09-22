@@ -1,18 +1,13 @@
-
-import React, { Component } from 'react';
-import ReactDOM from "react";
-
-class RegistrationForm extends React.Component
-{
-  render()
-  {
+import React from "react";
+import FillerText from "./FillerText"
+export default class Webpage extends React.Component {
+  render() {
     return (
-        <form>
-          <input type="text" placeholder="your name" />
-          <input type="password" placeholder = "your password" />
-          <button type="submit">Sign in</button>
-        </form>
-      )
+      <div>
+        <h1>"The world's coolest webpage"</h1>
+        <FillerText />
+        <FillerText />
+      </div>
+    )
   }
 }
-export default RegistrationForm;
