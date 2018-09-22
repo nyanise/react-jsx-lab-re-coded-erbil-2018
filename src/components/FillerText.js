@@ -1,10 +1,11 @@
-import React from 'react';
+import React from "react";
 
-class FillerText extends React.Component {
-  render() {
-    return (<h1> "The world's coolest webpage" </h1>)
+class FillerText extends React.Component
+{
+  render()
+  {
+    return (  <p>I am a filler text. I can be used to fill your screen. Amazing!</p>)
   }
 }
 
-
-export default  FillerText;
+export default FillerText;
