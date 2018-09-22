@@ -1,6 +1,6 @@
 
 import React from 'react';
-import Component
+import Component;
 import FillerText from './FillerText';
 
 class Webpage extends React.Component {
